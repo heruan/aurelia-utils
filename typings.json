@@ -1,0 +1,7 @@
+{
+  "name": "aurelia-utils",
+  "homepage": "https://github.com/heruan/aurelia-utils",
+  "version": "0.1.0",
+  "main": "dist/es2015/index.d.ts",
+  "dependencies": {}
+}
