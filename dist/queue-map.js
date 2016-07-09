@@ -1,7 +1,7 @@
 "use strict";
 var QueueMap = (function () {
-    function QueueMap() {
-        this.map = new Map();
+    function QueueMap(map) {
+        this.map = map ? new Map(map.map) : new Map();
     }
     Object.defineProperty(QueueMap.prototype, "size", {
         get: function () {
@@ -45,4 +45,3 @@ var QueueMap = (function () {
     return QueueMap;
 }());
 exports.QueueMap = QueueMap;
-//# sourceMappingURL=queue-map.js.map

@@ -1,6 +1,6 @@
 export declare class QueueMap<K, V> {
     private map;
-    constructor();
+    constructor(map?: QueueMap<K, V>);
     readonly size: number;
     clear(): void;
     delete(key: K): boolean;

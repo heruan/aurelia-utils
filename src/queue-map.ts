@@ -2,8 +2,8 @@ export class QueueMap<K, V> {
 
     private map: Map<K, V>;
 
-    public constructor() {
-        this.map = new Map<K, V>();
+    public constructor(map?: QueueMap<K, V>) {
+        this.map = map ? new Map<K, V>(map.map) : new Map<K, V>();
     }
 
     public get size() {
