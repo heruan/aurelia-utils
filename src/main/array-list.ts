@@ -1,6 +1,6 @@
-import {List} from "./list";
-import {Collection} from "./collection";
-import {ArrayIterator} from "./array-iterator";
+import { List} from "./list";
+import { Collection} from "./collection";
+import { ArrayIterator} from "./array-iterator";
 
 export class ArrayList<E> implements List<E> {
 

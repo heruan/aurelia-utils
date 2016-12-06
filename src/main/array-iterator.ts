@@ -1,4 +1,4 @@
-import {Iterator} from "./iterator";
+import { Iterator} from "./iterator";
 
 export class ArrayIterator<E> implements Iterator<E> {
 

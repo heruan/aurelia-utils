@@ -1,4 +1,4 @@
-import {Iterable} from "./iterable";
+import { Iterable} from "./iterable";
 
 export interface Collection<E> extends Iterable<E> {
 
