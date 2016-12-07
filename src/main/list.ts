@@ -1,4 +1,4 @@
-import { Collection} from "./collection";
+import { Collection } from "./collection";
 
 export interface List<E> extends Collection<E> {
 
