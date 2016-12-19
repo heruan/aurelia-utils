@@ -23,7 +23,6 @@ var Key = (function () {
     };
     return Key;
 }());
-exports.Key = Key;
 Key.BACKSPACE = "Backspace";
 Key.BACKSPACE_CODE = 8;
 Key.TAB = "Tab";
@@ -44,3 +43,6 @@ Key.SEMICOLON = "Semicolon";
 Key.SEMICOLON_CODE = 186;
 Key.COMMA = "Comma";
 Key.COMMA_CODE = 188;
+exports.Key = Key;
+
+//# sourceMappingURL=key.js.map

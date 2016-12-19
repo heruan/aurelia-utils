@@ -7,3 +7,5 @@ var queue_map_1 = require("./queue-map");
 exports.QueueMap = queue_map_1.QueueMap;
 var key_1 = require("./key");
 exports.Key = key_1.Key;
+
+//# sourceMappingURL=index.js.map
