@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var array_iterator_1 = require("./array-iterator");
 var ArrayList = (function () {
     function ArrayList(array) {

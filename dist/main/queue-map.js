@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var QueueMap = (function () {
     function QueueMap(map) {
         this.map = map ? new Map(map.map) : new Map();
